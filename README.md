@@ -63,9 +63,17 @@ Looker Studio (Dashboard) <br />
 ---
 ## Setup Instructions
 ### 1. Create Environment
-```console
+```bash
 conda create -n rag-env python=3.11
 conda activate rag-env
 pip install -r requirements.txt
 ```
+### 2. Configure Environment Variables
 
+Copy the example file:
+```bash
+cp .env.example .env
+```
+Update .env with:
+* OpenAI API key
+* Supabase database credentials
