@@ -56,3 +56,13 @@ Each request logs:
 *Error messages (if any)
 
 Metrics are stored in rag_metrics and visualized in a BI dashboard.
+
+---
+## Tech Stack
+
+Python 3.11
+FastAPI
+OpenAI API (GPT-4.1, Embeddings, Moderation)
+Supabase (PostgreSQL + pgvector)
+psycopg
+Looker Studio (Dashboard)
