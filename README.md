@@ -112,3 +112,18 @@ The system enforces safety through:
  * Logging violations into metrics table
 
 This ensures responsible AI behavior before generation occurs.
+
+---
+
+## Observability & Metrics
+
+Each request captures:
+* Latency (ms)
+* Prompt tokens
+* Completion tokens
+* Total tokens
+* Retrieval depth (num_chunks)
+* Success/failure
+* Error message (if applicable)
+
+These metrics are stored in Supabase and visualized in a BI dashboard to monitor performance and token efficiency.
