@@ -29,8 +29,7 @@ PDF → Text Extraction → Chunking → Embedding → Supabase pgvector
 
 ### Query Flow
 
-User Query
-
+#### User Query
 → Governance Check (Profinity + Moderation) <br />
 → Query Embedding <br />
 → Vector Similarity Search (Top-K) <br />
