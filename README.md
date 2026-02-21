@@ -31,17 +31,12 @@ PDF → Text Extraction → Chunking → Embedding → Supabase pgvector
 
 User Query
 
-→ Governance Check (Profinity + Moderation)
-
-→ Query Embedding
-
-→ Vector Similarity Search (Top-K)
-
-→ Curated Context
-
-→ GPT-4.1 Generation
-
-→ Response
+→ Governance Check (Profinity + Moderation) <br />
+→ Query Embedding <br />
+→ Vector Similarity Search (Top-K) <br />
+→ Curated Context <br />
+→ GPT-4.1 Generation <br />
+→ Response <br />
 
 ### Observability Flow
 
