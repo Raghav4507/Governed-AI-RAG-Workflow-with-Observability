@@ -99,4 +99,4 @@ Open Swagger UI:
 ```code
 http://127.0.0.1:8000/docs
 ```
-Use ```bash /ask ``` endpoint to query documents.
+Use ``` /ask ``` endpoint to query documents.
