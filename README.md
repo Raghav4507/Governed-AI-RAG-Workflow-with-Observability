@@ -100,3 +100,14 @@ Open Swagger UI:
 http://127.0.0.1:8000/docs
 ```
 Use ``` /ask ``` endpoint to query documents.
+
+---
+
+## Governance Design
+
+The system enforces safety through:
+ * Regex-based profanity detection
+ * OpenAI moderation model (omni-moderation-latest)
+ * Blocking unsafe queries
+ * Logging violations into metrics table
+This ensures responsible AI behavior before generation occurs.
