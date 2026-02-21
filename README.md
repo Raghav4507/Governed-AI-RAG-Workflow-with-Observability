@@ -77,6 +77,7 @@ cp .env.example .env
 Update .env with:
 * OpenAI API key
 * Supabase database credentials
+
 ### 3. Ingest PDF Documents
 
 Place PDF files inside:
