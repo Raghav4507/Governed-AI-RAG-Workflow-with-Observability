@@ -77,7 +77,6 @@ cp .env.example .env
 Update .env with:
 * OpenAI API key
 * Supabase database credentials
-
 ### 3. Ingest PDF Documents
 
 Place PDF files inside:
@@ -92,7 +91,6 @@ This will:
 * Extract text
 * Generate embeddings
 * Store vectors in Supabase
-
 ## 4. Start API Server
 ```base
 uvicorn src.api:app --host 127.0.0.1 --port 8000
