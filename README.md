@@ -59,3 +59,11 @@ OpenAI API (GPT-4.1, Embeddings, Moderation) <br />
 Supabase (PostgreSQL + pgvector) <br />
 psycopg <br />
 Looker Studio (Dashboard) <br />
+
+---
+## Setup Instructions
+### 1. Create Environment
+
+conda create -n rag-env python=3.11
+conda activate rag-env
+pip install -r requirements.txt
