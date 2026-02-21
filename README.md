@@ -40,14 +40,13 @@ PDF → Text Extraction → Chunking → Embedding → Supabase pgvector
 ### Observability Flow
 
 Each request logs:
-
-*Latency (ms)
-*Prompt tokens
-*Completion tokens
-*Total tokens
-*Number of retrieved chunks
-*Success/failure
-*Error messages (if any)
+* Latency (ms) 
+* Prompt tokens 
+* Completion tokens
+* Total tokens
+* Number of retrieved chunks
+* Success/failure
+* Error messages (if any)
 
 Metrics are stored in rag_metrics and visualized in a BI dashboard.
 
