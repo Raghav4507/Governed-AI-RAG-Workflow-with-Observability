@@ -60,9 +60,9 @@ Metrics are stored in rag_metrics and visualized in a BI dashboard.
 ---
 ## Tech Stack
 
-Python 3.11<br />
-FastAPI<br />
-OpenAI API (GPT-4.1, Embeddings, Moderation)<br />
-Supabase (PostgreSQL + pgvector)<br />
-psycopg<br />
-Looker Studio (Dashboard)<br />
+Python 3.11 <br />
+FastAPI <br />
+OpenAI API (GPT-4.1, Embeddings, Moderation) <br />
+Supabase (PostgreSQL + pgvector) <br />
+psycopg <br />
+Looker Studio (Dashboard) <br />
