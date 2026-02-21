@@ -127,3 +127,12 @@ Each request captures:
 * Error message (if applicable)
 
 These metrics are stored in Supabase and visualized in a BI dashboard to monitor performance and token efficiency.
+
+---
+
+## Design Decisions
+* Used ```text-embedding-3-small (1536 dimensions)``` to remain compatible with pgvector ivfflat index limit and optimize cost.
+* Top-K retrieval set to 5 to balance relevance and token efficiency.
+* Decorator-based metrics tracking for clean separation of concerns.
+* Environment-driven configuration for production-readiness.
+* Vector similarity search using cosine distance.
