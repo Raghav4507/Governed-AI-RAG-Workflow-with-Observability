@@ -92,3 +92,13 @@ This will:
 * Extract text
 * Generate embeddings
 * Store vectors in Supabase
+
+## 4. Start API Server
+```base
+uvicorn src.api:app --host 127.0.0.1 --port 8000
+```
+Open Swagger UI:
+```code
+http://127.0.0.1:8000/docs
+```
+Use ```bash /ask ``` endpoint to query documents.
