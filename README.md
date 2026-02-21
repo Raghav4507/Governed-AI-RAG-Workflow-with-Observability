@@ -77,3 +77,17 @@ cp .env.example .env
 Update .env with:
 * OpenAI API key
 * Supabase database credentials
+### 3. Ingest PDF Documents
+
+Place PDF files inside:
+```code
+data/pdfs/
+```
+Run ingestion:
+```bash
+python run_ingest.py
+```
+This will:
+*Extract text
+*Generate embeddings
+*Store vectors in Supabase
