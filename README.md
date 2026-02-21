@@ -63,7 +63,9 @@ Looker Studio (Dashboard) <br />
 ---
 ## Setup Instructions
 ### 1. Create Environment
-```bash
+```shell
 conda create -n rag-env python=3.11
 conda activate rag-env
 pip install -r requirements.txt
+```
+
