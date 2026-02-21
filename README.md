@@ -8,26 +8,15 @@ The system demonstrates full AI workflow engineering — from ingestion to monit
 ---
 ## Key Capabilities
 
-PDF ingestion and text extraction
-
-Chunking with metadata (page numbers)
-
-Embedding generation using OpenAI
-
-Vector storage using Supabase (pgvector)
-
-Cosine similarity Top-K retrieval
-
-Governance guardrails:
-
-Profanity filtering
-
-OpenAI moderation enforcement
-
-GPT-4.1 grounded response generation
-
-Token usage & latency tracking
-
-Structured metrics logging
-
-BI dashboard visualization (Looker Studio)
+* PDF ingestion and text extraction
+* Chunking with metadata (page numbers)
+* Embedding generation using OpenAI
+* Vector storage using Supabase (pgvector)
+* Cosine similarity Top-K retrieval
+* Governance guardrails:
+  -Profanity filtering
+  -OpenAI moderation enforcement
+* GPT-4.1 grounded response generation
+* Token usage & latency tracking
+* Structured metrics logging
+* BI dashboard visualization (Looker Studio)
