@@ -109,5 +109,6 @@ The system enforces safety through:
  * Regex-based profanity detection
  * OpenAI moderation model (omni-moderation-latest)
  * Blocking unsafe queries
- * Logging violations into metrics table <br />
+ * Logging violations into metrics table
+
 This ensures responsible AI behavior before generation occurs.
