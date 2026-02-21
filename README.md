@@ -20,3 +20,33 @@ The system demonstrates full AI workflow engineering — from ingestion to monit
 * Token usage & latency tracking
 * Structured metrics logging
 * BI dashboard visualization (Looker Studio)
+
+  ---
+## Architecture Overview
+### Ingestion Flow
+
+PDF → Text Extraction → Chunking → Embedding → Supabase pgvector
+
+### Query Flow
+
+User Query
+→ Governance Check (Profinity + Moderation)
+→ Query Embedding
+→ Vector Similarity Search (Top-K)
+→ Curated Context
+→ GPT-4.1 Generation
+→ Response
+
+### Observability Flow
+
+Each request logs:
+
+*Latency (ms)
+*Prompt tokens
+*Completion tokens
+*Total tokens
+*Number of retrieved chunks
+*Success/failure
+*Error messages (if any)
+
+Metrics are stored in rag_metrics and visualized in a BI dashboard.
