@@ -89,6 +89,6 @@ Run ingestion:
 python run_ingest.py
 ```
 This will:
-*Extract text
-*Generate embeddings
-*Store vectors in Supabase
+* Extract text
+* Generate embeddings
+* Store vectors in Supabase
