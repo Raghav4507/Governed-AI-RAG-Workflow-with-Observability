@@ -21,7 +21,7 @@ The system demonstrates full AI workflow engineering — from ingestion to monit
 * Structured metrics logging
 * BI dashboard visualization (Looker Studio)
 
-  ---
+---
 ## Architecture Overview
 ### Ingestion Flow
 
@@ -102,7 +102,6 @@ http://127.0.0.1:8000/docs
 Use ``` /ask ``` endpoint to query documents.
 
 ---
-
 ## Governance Design
 
 The system enforces safety through:
@@ -116,7 +115,6 @@ This ensures responsible AI behavior before generation occurs.
 ---
 
 ## Observability & Metrics
-
 Each request captures:
 * Latency (ms)
 * Prompt tokens
@@ -129,7 +127,6 @@ Each request captures:
 These metrics are stored in Supabase and visualized in a BI dashboard to monitor performance and token efficiency.
 
 ---
-
 ## Design Decisions
 * Used ```text-embedding-3-small (1536 dimensions)``` to remain compatible with pgvector ivfflat index limit and optimize cost.
 * Top-K retrieval set to 5 to balance relevance and token efficiency.
@@ -138,7 +135,6 @@ These metrics are stored in Supabase and visualized in a BI dashboard to monitor
 * Vector similarity search using cosine distance.
 
 ---
-
 ## Limitations & Future Improvements
 * No reranking layer
 * No semantic caching
@@ -149,9 +145,7 @@ These metrics are stored in Supabase and visualized in a BI dashboard to monitor
 These could be added to further production-harden the system.
 
 ---
-
 ## Summary
-
 This project demonstrates a governed, production-style RAG workflow capable of:
  * Transforming PDFs into a searchable vector knowledge base
  * Retrieving relevant context using semantic similarity
