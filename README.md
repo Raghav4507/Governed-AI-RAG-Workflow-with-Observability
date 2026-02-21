@@ -136,3 +136,26 @@ These metrics are stored in Supabase and visualized in a BI dashboard to monitor
 * Decorator-based metrics tracking for clean separation of concerns.
 * Environment-driven configuration for production-readiness.
 * Vector similarity search using cosine distance.
+
+---
+
+## Limitations & Future Improvements
+* No reranking layer
+* No semantic caching
+* No hybrid keyword + vector search
+* No streaming responses
+* No authentication layer
+
+These could be added to further production-harden the system.
+
+---
+
+## Summary
+
+This project demonstrates a governed, production-style RAG workflow capable of:
+ * Transforming PDFs into a searchable vector knowledge base
+ * Retrieving relevant context using semantic similarity
+ * Generating grounded responses with GPT-4.1
+ * Enforcing governance guardrails
+
+Monitoring performance and token usage via BI visualization
